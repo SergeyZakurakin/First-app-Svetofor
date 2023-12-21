@@ -9,21 +9,26 @@
 /* Begin PBXBuildFile section */
 		DC56C26F2B2BB7DD007859E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56C26E2B2BB7DD007859E3 /* AppDelegate.swift */; };
 		DC56C2712B2BB7DD007859E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56C2702B2BB7DD007859E3 /* SceneDelegate.swift */; };
-		DC56C2732B2BB7DD007859E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56C2722B2BB7DD007859E3 /* ViewController.swift */; };
+		DC56C2732B2BB7DD007859E3 /* SvetoforController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56C2722B2BB7DD007859E3 /* SvetoforController.swift */; };
 		DC56C2762B2BB7DD007859E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56C2742B2BB7DD007859E3 /* Main.storyboard */; };
 		DC56C2782B2BB7DF007859E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC56C2772B2BB7DF007859E3 /* Assets.xcassets */; };
 		DC56C27B2B2BB7DF007859E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56C2792B2BB7DF007859E3 /* LaunchScreen.storyboard */; };
+		DC56C2842B2E6FE9007859E3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DC56C2832B2E6FE9007859E3 /* SnapKit */; };
+		DC56C2862B2F157F007859E3 /* SvetoforSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56C2852B2F157F007859E3 /* SvetoforSectionView.swift */; };
+		DC56C2882B2F6B6E007859E3 /* SvetoforView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56C2872B2F6B6E007859E3 /* SvetoforView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC56C26B2B2BB7DD007859E3 /* firstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC56C26E2B2BB7DD007859E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC56C2702B2BB7DD007859E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC56C2722B2BB7DD007859E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC56C2722B2BB7DD007859E3 /* SvetoforController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvetoforController.swift; sourceTree = "<group>"; };
 		DC56C2752B2BB7DD007859E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC56C2772B2BB7DF007859E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC56C27A2B2BB7DF007859E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC56C27C2B2BB7DF007859E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC56C2852B2F157F007859E3 /* SvetoforSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvetoforSectionView.swift; sourceTree = "<group>"; };
+		DC56C2872B2F6B6E007859E3 /* SvetoforView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvetoforView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC56C2842B2E6FE9007859E3 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +64,9 @@
 			children = (
 				DC56C26E2B2BB7DD007859E3 /* AppDelegate.swift */,
 				DC56C2702B2BB7DD007859E3 /* SceneDelegate.swift */,
-				DC56C2722B2BB7DD007859E3 /* ViewController.swift */,
+				DC56C2872B2F6B6E007859E3 /* SvetoforView.swift */,
+				DC56C2722B2BB7DD007859E3 /* SvetoforController.swift */,
+				DC56C2852B2F157F007859E3 /* SvetoforSectionView.swift */,
 				DC56C2742B2BB7DD007859E3 /* Main.storyboard */,
 				DC56C2772B2BB7DF007859E3 /* Assets.xcassets */,
 				DC56C2792B2BB7DF007859E3 /* LaunchScreen.storyboard */,
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = firstApp;
+			packageProductDependencies = (
+				DC56C2832B2E6FE9007859E3 /* SnapKit */,
+			);
 			productName = firstApp;
 			productReference = DC56C26B2B2BB7DD007859E3 /* firstApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = DC56C2622B2BB7DD007859E3;
+			packageReferences = (
+				DC56C2822B2E6FE9007859E3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = DC56C26C2B2BB7DD007859E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC56C2732B2BB7DD007859E3 /* ViewController.swift in Sources */,
+				DC56C2862B2F157F007859E3 /* SvetoforSectionView.swift in Sources */,
+				DC56C2732B2BB7DD007859E3 /* SvetoforController.swift in Sources */,
+				DC56C2882B2F6B6E007859E3 /* SvetoforView.swift in Sources */,
 				DC56C26F2B2BB7DD007859E3 /* AppDelegate.swift in Sources */,
 				DC56C2712B2BB7DD007859E3 /* SceneDelegate.swift in Sources */,
 			);
@@ -363,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC56C2822B2E6FE9007859E3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC56C2832B2E6FE9007859E3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC56C2822B2E6FE9007859E3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC56C2632B2BB7DD007859E3 /* Project object */;
 }
